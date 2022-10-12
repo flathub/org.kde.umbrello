@@ -20,8 +20,7 @@
         "--share=ipc",
         "--device=dri",
         "--socket=wayland",
-        "--socket=fallback-x11",
-        "--own-name=org.kde.umbrello-2"
+        "--socket=fallback-x11"
     ],
     "modules": [
         {
