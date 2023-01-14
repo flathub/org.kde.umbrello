@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.101/portingAids/kdelibs4support-5.101.0.tar.xz",
-                    "sha256": "75b22a61e5341c91dfb59d1a601a6f7b989be0185a707dcfb489910940ee4aaa",
+                    "url": "https://download.kde.org/stable/frameworks/5.102/portingAids/kdelibs4support-5.102.0.tar.xz",
+                    "sha256": "643ef6b24b4fc6c06882f2a00ac7bc6a5c7f11811be152b012879ec7591d0269",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
@@ -47,8 +47,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdevelop-pg-qt/2.2.1/src/kdevelop-pg-qt-2.2.1.tar.xz",
-                    "sha256": "c13931788ac9dc02188cdd9c6e71e164ae81b4568b048748652bbf6fa4a9c62b"
+                    "url": "https://download.kde.org/stable/kdevelop-pg-qt/2.2.2/src/kdevelop-pg-qt-2.2.2.tar.xz",
+                    "sha256": "3d56604c479f8f04ae32a523ee91f3078c717117d0deb39e973e22494cbb65f1",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 17733,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kdevelop-pg-qt/$version/src/kdevelop-pg-qt-$version.tar.xz"
+                    }
                 }
             ]
         },
