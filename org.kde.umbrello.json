@@ -1,17 +1,17 @@
 {
     "app-id": "org.kde.umbrello",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-21.08",
+    "runtime-version": "5.15-22.08",
     "sdk": "org.kde.Sdk",
     "base": "io.qt.qtwebkit.BaseApp",
-    "base-version": "5.15-21.08",
+    "base-version": "5.15-22.08",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.llvm12"
+        "org.freedesktop.Sdk.Extension.llvm15"
     ],
     "add-extensions": {
-        "org.freedesktop.Sdk.Extension.llvm12": {
+        "org.freedesktop.Sdk.Extension.llvm15": {
             "no-autodownload": "false",
-            "version": "21.08"
+            "version": "22.08"
         }
     },
     "command": "umbrello5",
@@ -62,8 +62,8 @@
             "name": "umbrello",
             "buildsystem": "cmake-ninja",
             "build-options": {
-                "prepend-path": "/usr/lib/sdk/llvm12/bin",
-                "prepend-ld-library-path": "/usr/lib/sdk/llvm12/lib"
+                "prepend-path": "/usr/lib/sdk/llvm15/bin",
+                "prepend-ld-library-path": "/usr/lib/sdk/llvm15/lib"
             },
             "config-opts": [
                 "-DBUILD_APIDOC=OFF"
