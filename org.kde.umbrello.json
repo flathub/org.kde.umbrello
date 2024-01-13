@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.113/portingAids/kdelibs4support-5.113.0.tar.xz",
-                    "sha256": "44d014666f0eefffd87ee7b0a7db5f7b460f8d11c803b11e5ac39617f01f04fd",
+                    "url": "https://download.kde.org/stable/frameworks/5.114/portingAids/kdelibs4support-5.114.0.tar.xz",
+                    "sha256": "ac064213c4982881d47469793795e62520a67056b121e40a674e3a51231c879c",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8762,
