@@ -1,17 +1,17 @@
 {
     "app-id": "org.kde.umbrello",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "base": "io.qt.qtwebkit.BaseApp",
-    "base-version": "5.15-22.08",
+    "base-version": "5.15-23.08",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.llvm15"
+        "org.freedesktop.Sdk.Extension.llvm16"
     ],
     "add-extensions": {
-        "org.freedesktop.Sdk.Extension.llvm15": {
+        "org.freedesktop.Sdk.Extension.llvm16": {
             "no-autodownload": "false",
-            "version": "22.08"
+            "version": "23.08"
         }
     },
     "command": "umbrello5",
