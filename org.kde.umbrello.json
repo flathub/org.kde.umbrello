@@ -1,27 +1,27 @@
 {
     "app-id": "org.kde.umbrello",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-22.08",
+    "runtime-version": "5.15-23.08",
     "sdk": "org.kde.Sdk",
     "base": "io.qt.qtwebkit.BaseApp",
-    "base-version": "5.15-22.08",
+    "base-version": "5.15-23.08",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.llvm15"
+        "org.freedesktop.Sdk.Extension.llvm16"
     ],
     "add-extensions": {
-        "org.freedesktop.Sdk.Extension.llvm15": {
+        "org.freedesktop.Sdk.Extension.llvm16": {
             "no-autodownload": "false",
-            "version": "22.08"
+            "version": "23.08"
         }
     },
     "command": "umbrello5",
     "rename-icon": "umbrello",
     "finish-args": [
-        "--share=ipc",
         "--device=dri",
-        "--socket=wayland",
+        "--own-name=org.kde.umbrello-2",
+        "--share=ipc",
         "--socket=fallback-x11",
-        "--own-name=org.kde.umbrello-2"
+        "--socket=wayland"
     ],
     "modules": [
         {
@@ -71,18 +71,14 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.5/src/umbrello-23.08.5.tar.xz",
-                    "sha256": "4c404222ee5a41976f2c561220c6f74867e9828a0d09a36a8166b9ee1b64c780",
+                    "url": "https://download.kde.org/stable/release-service/24.02.1/src/umbrello-24.02.1.tar.xz",
+                    "sha256": "51bd4d06c7bd4ae19904a85e387a235e427626429c198aeb7cfb3b6aebad84db",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/umbrello-$version.tar.xz"
                     }
-                },
-                {
-                    "type": "patch",
-                    "path": "appdata.patch"
                 }
             ]
         }
