@@ -47,14 +47,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdevelop-pg-qt/2.3.0/src/kdevelop-pg-qt-2.3.0.tar.xz",
-                    "sha256": "3d3ef3cb395e9670e60c399ea6d865cc796e00e52c355eed943fbeca7da7120d",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 17733,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/kdevelop-pg-qt/$version/src/kdevelop-pg-qt-$version.tar.xz"
-                    }
+                    "url": "https://download.kde.org/stable/kdevelop-pg-qt/2.2.2/src/kdevelop-pg-qt-2.2.2.tar.xz",
+                    "sha256": "3d56604c479f8f04ae32a523ee91f3078c717117d0deb39e973e22494cbb65f1"
                 }
             ]
         },
