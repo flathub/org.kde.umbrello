@@ -48,13 +48,7 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/kdevelop-pg-qt/2.2.2/src/kdevelop-pg-qt-2.2.2.tar.xz",
-                    "sha256": "3d56604c479f8f04ae32a523ee91f3078c717117d0deb39e973e22494cbb65f1",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 17733,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/kdevelop-pg-qt/$version/src/kdevelop-pg-qt-$version.tar.xz"
-                    }
+                    "sha256": "3d56604c479f8f04ae32a523ee91f3078c717117d0deb39e973e22494cbb65f1"
                 }
             ]
         },
@@ -71,8 +65,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.1/src/umbrello-24.08.1.tar.xz",
-                    "sha256": "5a24f8a742f8952b035df09231e479f1f4fddd359216b803db7dfefe5ef88ac2",
+                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/umbrello-24.08.2.tar.xz",
+                    "sha256": "1e5a2580f5526b07716f8b290d94da393d8188f0fe3aa0876324afb67dd33c45",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
