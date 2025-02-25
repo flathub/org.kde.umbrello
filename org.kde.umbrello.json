@@ -73,6 +73,10 @@
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/release-service/$version/src/umbrello-$version.tar.xz"
                     }
+                },
+                {
+                    "type": "patch",
+                    "path": "143e4de56e879aa29c994214d328440c7eaeb880.patch"
                 }
             ]
         }
