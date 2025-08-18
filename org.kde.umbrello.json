@@ -46,6 +46,10 @@
         {
             "name": "kdevelop-pg-qt",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_WITH_QT6=OFF",
+                "-DBUILD_WITH_QT5=ON"
+            ],
             "sources": [
                 {
                     "type": "archive",
