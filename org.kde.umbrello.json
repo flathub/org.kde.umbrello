@@ -21,6 +21,10 @@
         "--socket=fallback-x11",
         "--socket=wayland"
     ],
+    "cleanup": [
+        "/include",
+        "/lib/cmake"
+    ],
     "modules": [
         {
             "name": "kdelibs4support",
@@ -28,11 +32,11 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/frameworks/5.115/portingAids/kdelibs4support-5.115.0.tar.xz",
-                    "sha256": "72a2fa16c9044fffa7548f349e5e19f16996787673e6bd978fdca260e5512f14",
+                    "url": "https://download.kde.org/stable/frameworks/5.116/portingAids/kdelibs4support-5.116.0.tar.xz",
+                    "sha256": "ed915dd146eb10262816da62904d04f78dacf9595d44d400dd1644d21c10c1e4",
                     "x-checker-data": {
                         "type": "anitya",
-                        "project-id": 8762,
+                        "project-id": 379839,
                         "stable-only": true,
                         "url-template": "https://download.kde.org/stable/frameworks/$major.$minor/portingAids/kdelibs4support-$version.tar.xz"
                     }
@@ -42,11 +46,21 @@
         {
             "name": "kdevelop-pg-qt",
             "buildsystem": "cmake-ninja",
+            "config-opts": [
+                "-DBUILD_WITH_QT6=OFF",
+                "-DBUILD_WITH_QT5=ON"
+            ],
             "sources": [
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/kdevelop-pg-qt/2.2.2/src/kdevelop-pg-qt-2.2.2.tar.xz",
-                    "sha256": "3d56604c479f8f04ae32a523ee91f3078c717117d0deb39e973e22494cbb65f1"
+                    "sha256": "3d56604c479f8f04ae32a523ee91f3078c717117d0deb39e973e22494cbb65f1",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 17733,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/kdevelop-pg-qt/$version/src/kdevelop-pg-qt-$version.tar.xz"
+                    }
                 }
             ]
         },
