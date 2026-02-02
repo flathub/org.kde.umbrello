@@ -23,7 +23,9 @@
     ],
     "cleanup": [
         "/include",
-        "/lib/cmake"
+        "/lib/cmake",
+        "/share/doc",
+        "/share/man"
     ],
     "modules": [
         {
