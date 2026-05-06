@@ -1,7 +1,7 @@
 {
     "app-id": "org.kde.umbrello",
     "runtime": "org.kde.Platform",
-    "runtime-version": "5.15-25.08",
+    "runtime-version": "6.10",
     "sdk": "org.kde.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.llvm22"
@@ -49,23 +49,20 @@
             "name": "kdevelop-pg-qt",
             "buildsystem": "cmake-ninja",
             "config-opts": [
-                "-DBUILD_WITH_QT6=OFF",
-                "-DBUILD_WITH_QT5=ON",
+                "-DBUILD_WITH_QT6=ON",
+                "-DBUILD_WITH_QT5=OFF",
                 "-DCMAKE_POLICY_VERSION_MINIMUM=3.5"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kdevelop-pg-qt/2.2.2/src/kdevelop-pg-qt-2.2.2.tar.xz",
-                    "sha256": "3d56604c479f8f04ae32a523ee91f3078c717117d0deb39e973e22494cbb65f1",
+                    "url": "https://download.kde.org/stable/kdevelop-pg-qt/2.4.0/src/kdevelop-pg-qt-2.4.0.tar.xz",
+                    "sha256": "acbeb61c82f5d7aa2ddcfa18e3bee5e2559106970bd6d146d46c95f8d027bb86",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 17733,
                         "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/kdevelop-pg-qt/$version/src/kdevelop-pg-qt-$version.tar.xz",
-                        "versions": {
-                            "<": "2.3.0"
-                        }
+                        "url-template": "https://download.kde.org/stable/kdevelop-pg-qt/$version/src/kdevelop-pg-qt-$version.tar.xz"
                     }
                 }
             ]
