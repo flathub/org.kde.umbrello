@@ -58,7 +58,8 @@
                 "prepend-ld-library-path": "/usr/lib/sdk/llvm16/lib"
             },
             "config-opts": [
-                "-DBUILD_APIDOC=OFF"
+                "-DBUILD_APIDOC=OFF",
+                "-DQT_MAJOR_VERSION=6"
             ],
             "sources": [
                 {
