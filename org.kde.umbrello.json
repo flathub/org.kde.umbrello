@@ -12,7 +12,7 @@
             "version": "25.08"
         }
     },
-    "command": "umbrello5",
+    "command": "umbrello6",
     "rename-icon": "umbrello",
     "finish-args": [
         "--device=dri",
