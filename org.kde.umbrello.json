@@ -64,8 +64,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/26.04.1/src/umbrello-26.04.1.tar.xz",
-                    "sha256": "d5ccce924091558d76b6bf0245deb342cb7afcc8dbfae5205bb3668114ed2060",
+                    "url": "https://download.kde.org/stable/release-service/26.04.2/src/umbrello-26.04.2.tar.xz",
+                    "sha256": "fcb3c64a7f25780d985aab76d6ecc0e5fa5e3c1e144ad1d5ab5e50eca714b670",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
